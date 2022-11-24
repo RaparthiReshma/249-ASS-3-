@@ -1,0 +1,42 @@
+//Pass or Fail//
+
+sno=int(input())
+name=input()
+group=input()
+s1=int(input("Maths:"))
+s2=int(input("Computers:"))
+s3=int(input("Physics:"))
+if s1>=35:
+    print("PASS") 
+else:
+    print("FAIL")
+if s2>=35:    
+    print("PASS")
+else:
+    print("FAIL")
+if s3>=35:    
+    print("PASS")
+else:
+    print("FAIL")
+//OUTPUT-1//
+38
+reshma
+bca
+Maths:50
+Computers:79
+Physics:65
+PASS
+PASS
+PASS
+> 
+//OUTPUT-2//
+15
+Tanvi
+bsc
+Maths:32
+Computers:50
+Physics:70
+FAIL
+PASS
+PASS
+> 
